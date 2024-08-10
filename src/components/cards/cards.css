@@ -1,0 +1,65 @@
+/* cards.css */
+
+/* Common styles for .imag */
+.imag {
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+/* .cartlink styles */
+.cartlink {
+    position: absolute;
+    bottom: 6%;
+    right: 10%;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+/* Dark mode specific styles */
+body[data-theme='dark'] .cardititle {
+    color: white;
+}
+body[data-theme='dark'] .cardprice{
+    color: white;
+}
+body[data-theme='dark'] .cartlink {
+    color: white;
+}
+
+body[data-theme='dark'] .carticon {
+    color: white;
+}
+
+body[data-theme='dark'] .justify-content-center {
+    background-color: black;
+}
+body[data-theme='light'] .justify-content-center {
+    background-color: white;
+}
+
+body[data-theme='dark'] .cardbody {
+    background-color: black;
+    border: 10px solid white;
+}
+
+/* Light mode specific styles (if needed) */
+body[data-theme='light'] .cardititle {
+    color: black;
+}
+
+body[data-theme='light'] .cartlink {
+    color: black;
+}
+
+body[data-theme='light'] .carticon {
+    color: white;
+}
+
+/* .carticon styles */
+.carticon {
+    
+    margin-top: 2px;
+    margin-right: 20px;
+    height: 20px;
+}

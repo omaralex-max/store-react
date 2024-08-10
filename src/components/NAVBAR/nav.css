@@ -1,0 +1,73 @@
+/* src/components/NAVBAR/nav.css */
+
+/* Common styles */
+.navbar {
+    padding: 1px;
+    position: relative;
+}
+
+.brand {
+    font-size: xx-large;
+    margin-left: 10px;
+    font-weight: bold;    
+}
+
+.me-auto {
+    position: absolute;
+    right: 5%;
+}
+
+.navlink {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* Light mode styles */
+body[data-theme='light'] .navbar {
+    background-color: #f8f9fa; /* Light background color */
+    color: #000000; /* Dark text color */
+}
+
+body[data-theme='light'] .navlink {
+    color: #000000; /* Dark color for links */
+}
+body[data-theme='light'] .carticon{
+    color: black;
+}
+/* Dark mode styles */
+body[data-theme='dark'] .navbar {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+}
+
+body[data-theme='dark'] .navlink {
+    color: #ffffff; /* Light color for links */
+}
+body[data-theme='dark'] .ml-2{
+    color: white;
+    outline: #f8f9fa;
+}
+
+/* Additional styles */
+.cart-quantity {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 50%;
+    padding: 7px 8px;
+    font-size: 20px;
+    width: 33px;
+    height: 33px;
+}
+
+.cart-quantity:hover {
+    color: aqua;
+}
+
+.carticon {
+    margin-top: 2px;
+    margin-right: 20px;
+    height: 20px;
+}
